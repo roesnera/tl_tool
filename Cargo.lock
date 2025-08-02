@@ -65,6 +65,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
 
 [[package]]
+name = "chromium-base64-rs"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5ad090f4af02c482c9c74b7ee0cad194b1c4b7cf2f2814923d70e300cefedad2"
+
+[[package]]
 name = "clap"
 version = "4.5.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -169,6 +175,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "base64",
+ "chromium-base64-rs",
  "clap",
 ]
 
